@@ -1,0 +1,10 @@
+{
+  "realm" : "kominfo",
+  "realm-public-key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxBS4YKpag5tlEoC/oDmCLt7QEHMa6WAoV3iolBd6u1p+V1QcHRimjXMfdSkElWW+IzZbHcLYEsrOT6ETy35WRboYP+c4X7AVFepKgEyN7DI1IlekP3lLmA62j+DZ4kyLPQLoTcDmYaEZhjEvThdJ7RIWwo8qbvB087E5I1AQGL2tXXNi4cwdAvvIEHTbahJRQjs4bcDoDR42Y1Qjlgq3vNNLOs2SpzlODD3WDBkA1ip9Ehn49z3/f3G1RwW+f4brCWMGhUbm1l8gJG61XnhmVTOXyvzICD4RCVWsiTFxwx/GuVvs/rf+/i6blT5F94QQkNsu9pIuCVhUjWnnrHoqFwIDAQAB",
+  "auth-server-url" : "${env.auth_server_url}",
+  "ssl-required" : "external",
+  "resource" : "sipd",
+  "secret": "64db8829-bf69-4cb6-b220-7fafb56f8fa6",
+  "public-client" : false,
+  "bearer-only": true
+}

@@ -1,0 +1,54 @@
+{
+  "name": "simple-express-rest",
+  "version": "1.0.0",
+  "author": "andhikafatoni@gmail.com",
+  "license": "ISC",
+  "description": "simple backend rest using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --clearCache",
+    "start": "nodemon index.js",
+    "dev": "set DEBUG=*& nodemon index.js",
+    "migrate_down": "db-migrate down -c 1 --config ./config/db-migration.config.json",
+    "migrate_down_all": "db-migrate reset --config ./config/db-migration.config.json",
+    "migrate_up": "db-migrate up -c 1 --config ./config/db-migration.config.json",
+    "migrate_up_all": "db-migrate up --config ./config/db-migration.config.json"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "formidable": "^1.2.2",
+    "http-errors": "^1.7.3",
+    "jszip": "^3.4.0",
+    "keycloak-connect": "^10.0.1",
+    "knex": "^0.21.1",
+    "minio": "^7.0.16",
+    "multer": "^1.4.2",
+    "objection": "^2.1.3",
+    "pdfmake": "^0.1.65",
+    "pg": "^8.2.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InOuttt/rest-simple-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InOuttt/rest-simple-express/issues"
+  },
+  "homepage": "https://github.com/InOuttt/rest-simple-express#readme"
+}
