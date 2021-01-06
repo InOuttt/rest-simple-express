@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "async": "^3.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "db-migrate-pg": "^1.2.2",
     "dotenv": "^8.2.0",
