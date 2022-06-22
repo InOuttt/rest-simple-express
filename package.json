@@ -15,7 +15,7 @@
     "migrate_up_all": "db-migrate up --config ./config/db-migration.config.json"
   },
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "db-migrate-pg": "^1.2.2",
