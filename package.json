@@ -24,7 +24,7 @@
     "express-validator": "^6.4.1",
     "formidable": "^1.2.2",
     "http-errors": "^1.7.3",
-    "jszip": "^3.4.0",
+    "jszip": "^3.7.0",
     "keycloak-connect": "^10.0.1",
     "knex": "^0.21.1",
     "minio": "^7.0.16",
